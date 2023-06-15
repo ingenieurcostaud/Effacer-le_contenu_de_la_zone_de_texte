@@ -1,0 +1,42 @@
+body {
+    background-image: url('/assets/font/tim-swaan-eOpewngf68w-unsplash.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    width: 300px;
+    height: 200px; /* Ajustez la hauteur selon vos préférences */
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Ajoutez une bordure arrondie */
+    background-color: rgba(255, 255, 255, 0.8); /* Rendez le fond de la barre plus transparent */
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
